@@ -95,6 +95,6 @@ li {
     font-weight: bolder;
 }
 
-footer ul {
-    text-align: center;
+footer li {
+    padding: 0.5rem;
 }
