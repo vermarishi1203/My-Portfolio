@@ -87,14 +87,12 @@ li {
 }
 
 .icons {
-    max-width: 18px;
+    max-width: 50px;
     padding-right: 0.5rem;
 }
-
+.icons:hover {
+    max-width: 70px;
+}
 .active {
     font-weight: bolder;
-}
-
-footer li {
-    padding: 0.5rem;
 }
