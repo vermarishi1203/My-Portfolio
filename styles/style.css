@@ -94,3 +94,7 @@ li {
 .active {
     font-weight: bolder;
 }
+
+footer ul {
+    text-align: center;
+}
