@@ -1,13 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@400;700&display=swap');
 
 :root {
-    --primary: #7C3AED;
-    --primary-dark: #5B21B6;
-    --bg: #111827;  
+    --primary-light: #8B5CF6;
+    --primary-dark: #4C1D95;
+    --bg: #111827;
+    --bg-light: #1F2937;
+    --text-color: #F3F4F6;  
 }
 
 body {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     background-color: var(--bg);
-    color: white;
+    color: var(--text-color);
+    max-width: 600px;
+    margin: auto;
+}
+
+a {
+    color: var(--primary-light);
+}
+
+.nav {
+    background-color: var(--primary-dark); 
+    padding: 1rem;
+}
+
+.logo {
+    color: var(--primary-light);
+    font-weight: bolder;
+}
+
+.nav--links {
+    color: var(--text-color);
+}
+
+.headerIllustration {
+    max-width: 400px;
+    height: auto;
+    margin: auto;
+    display: block;
+
+}
+
+h1 {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.darkbg {
+    padding: 1rem;
+}
+
+.lightbg {
+    background-color: var(--bg-light);
+    padding: 1rem;
+}
+
+footer {
+    background-color: var(--primary-dark);
+    padding: 1rem;
 }
