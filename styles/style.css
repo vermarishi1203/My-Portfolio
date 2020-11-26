@@ -24,7 +24,7 @@ a {
     color: var(--primary-light);
     text-decoration: none;
     border-radius: 5px;
-    padding: 5px;
+    padding: 10px;
 }
 
 a:hover {
@@ -34,11 +34,12 @@ a:hover {
 
 .nav {
     background-color: var(--primary-dark); 
-    padding: 1rem 1rem 0.125rem 1rem;
+    padding: 1rem ;
 }
 
 .nav a {
     color: var(--text-color);
+    margin: auto;
 }
 .nav a:hover {
     background-color: var(--text-color);
@@ -136,4 +137,18 @@ ol li {
     max-width: 112px;
     padding: 0.5rem 1rem;
     margin: 1rem auto ;
+}
+.mainheader {
+    color: var(--text-color);
+}
+.webdeveloper {
+    color: var(--primary-light);
+}
+.logo-img {
+    max-width: 26px;
+    border-radius: 50%;
+}
+.logo a:hover{
+    background-color: var(--primary-dark);
+    color: var(--text-color);
 }
