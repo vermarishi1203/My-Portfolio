@@ -22,10 +22,13 @@ body {
 a {
     color: var(--primary-light);
     text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 a:hover {
-    font-size: 2rem;
+    background-color: var(--primary-dark);
+    color: var(--text-color);
 }
 
 .nav {
@@ -36,7 +39,10 @@ a:hover {
 .nav a {
     color: var(--text-color);
 }
-
+.nav a:hover {
+    background-color: var(--text-color);
+    color: var(--primary-dark);
+}
 .logo {
     color: var(--primary-light);
     font-weight: bolder;
@@ -92,11 +98,19 @@ li {
     font-weight: bolder;
 }
 .primary-link {
-    display: block;
-    padding-bottom: 0.5rem;
+    background-color: var(--primary-dark);
+    color: var(--text-color);
+}
+.primary-link:hover{
+    background-color: var(--primary-light);
+    color: var(--bg);
 }
 .secondary-link {
     color: var(--primary-dark);
+}
+.secondary-link:hover{
+    background-color: var(--bg);
+    color: var(--primary-light);
 }
 ol li {
     display: list-item;
@@ -111,5 +125,8 @@ ol li {
     text-align: left;
 }
 .darkbg li {
+    display: list-item;
+}
+.listedblogs {
     display: list-item;
 }
