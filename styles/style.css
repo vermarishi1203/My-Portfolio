@@ -73,7 +73,6 @@ footer {
 }
 
 ul {
-    list-style: none;
     text-align: right;
 }
 
@@ -107,4 +106,10 @@ ol li {
 }
 .date {
     font-size: 0.8rem;
+}
+.darkbg ul {
+    text-align: left;
+}
+.darkbg li {
+    display: list-item;
 }
