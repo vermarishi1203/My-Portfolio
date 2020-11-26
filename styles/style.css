@@ -43,12 +43,12 @@ a:hover {
     font-size: 2rem;
 }
 
-.headerIllustration {
+.illustration {
     max-width: 400px;
     height: auto;
     margin: auto;
     display: block;
-
+    padding-top: 1rem;
 }
 
 h1 {
