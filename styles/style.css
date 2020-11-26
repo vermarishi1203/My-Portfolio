@@ -90,11 +90,11 @@ li {
 }
 
 .icons {
-    max-width: 50px;
+    max-width: 3rem;
     padding-right: 0.5rem;
 }
 .icons:hover {
-    max-width: 70px;
+    max-width: 4rem;
 }
 .active {
     font-weight: bolder;
