@@ -71,13 +71,11 @@ h1 {
 
 .darkbg {
     padding: 1rem;
-    border-radius: 1rem;
 }
 
 .lightbg {
     background-color: var(--bg-light);
     padding: 1rem;
-    border-radius: 1rem;
 }
 
 footer {
@@ -121,7 +119,11 @@ li {
 .secondary-link:hover{
     background-color: var(--bg-light);
 }
-ol li {
+.projects-list{
+    text-align: left;
+    list-style-type: none;
+}
+.projects-list li {
     display: list-item;
 }
 .projects h1 {
@@ -149,7 +151,7 @@ ol li {
 .mainheader {
     color: var(--text-color);
 }
-.webdeveloper {
+.highlighted {
     color: var(--primary-light);
 }
 .logo-img {
