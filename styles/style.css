@@ -60,7 +60,7 @@ a:hover {
 }
 
 h1 {
-    text-align: center;
+    text-align: left;
     font-weight: bolder;
     color: var(--heading);
 }
@@ -76,7 +76,7 @@ h1 {
 
 footer {
     background-color: var(--primary-dark);
-    padding: 1rem;
+    padding: 1rem ;
     color: var(--text-color);
     border-radius: 1rem 1rem 0rem 0rem;
     margin: 1rem auto 0rem auto;
@@ -84,6 +84,8 @@ footer {
 }
 footer ul {
     text-align: center;
+    margin: 0px;
+    padding-left: 0;
 }
 ul {
     text-align: right;
@@ -96,7 +98,6 @@ li {
 
 .icons {
     max-width: 3rem;
-    padding-right: 0.5rem;
 }
 .icons:hover {
     max-width: 4rem;
@@ -142,6 +143,7 @@ li {
 .blogs-list{
     text-align: left;
     margin-top: 0;
+    padding-left: 0px;
 }
 .blogs-list h1 {
     text-align: left;
@@ -155,6 +157,7 @@ li {
 }
 .mainheader {
     color: var(--text-color);
+    text-align: center;
 }
 .highlighted {
     color: var(--primary-light);
