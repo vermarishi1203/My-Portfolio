@@ -14,13 +14,15 @@ body {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     background-color: var(--bg);
     color: var(--text-color);
-    max-width: 600px;
-    margin: auto;
     font-size: 1.5rem;
     letter-spacing: 0.0675rem;
     line-height: 2rem;
+    margin: 0;
 }
-
+main {
+    max-width: 600px;
+    margin: auto;
+}
 a {
     color: var(--primary-light);
     text-decoration: none;
