@@ -19,10 +19,6 @@ body {
     line-height: 2rem;
     margin: 0;
 }
-main {
-    max-width: 600px;
-    margin: auto;
-}
 a {
     color: var(--primary-light);
     text-decoration: none;
@@ -84,8 +80,11 @@ footer {
     color: var(--text-color);
     border-radius: 1rem 1rem 0rem 0rem;
     margin: 1rem auto 0rem auto;
+    text-align: center;
 }
-
+footer ul {
+    text-align: center;
+}
 ul {
     text-align: right;
 }
@@ -122,6 +121,8 @@ li {
 .projects-list{
     text-align: left;
     list-style-type: none;
+    margin-top: 0px;
+    padding-left: 0px;
 }
 .projects-list li {
     display: list-item;
@@ -138,7 +139,11 @@ li {
 .darkbg li {
     display: list-item;
 }
-.listed-blogs{
+.blogs-list{
+    text-align: left;
+    margin-top: 0;
+}
+.blogs-list h1 {
     text-align: left;
 }
 .back-btn {
@@ -161,4 +166,14 @@ li {
 .logo a:hover{
     background-color: var(--primary-dark);
     color: var(--text-color);
+}
+.center-text {
+    max-width: 600px;
+    margin: auto;
+}
+.projects .darkbg{
+    padding-bottom: 3rem;
+}
+.projects .lightbg{
+    padding-bottom: 3rem;
 }
